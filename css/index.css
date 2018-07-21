@@ -1,0 +1,118 @@
+*{
+	margin: 0px; /* para retirar las margenes globalizadas */
+	padding: 0px;/* para retirar las padding globalizadas */
+}
+header{
+	background-color: #f2f2f2; /* para colocar un color de fondo */
+	width:100%; /* para Declara cuanto de ancho tendra */
+	height: 120px;/* para Declara cuanto de alto tendra */
+}
+body{
+    font-family: sans-serif;/* para Declara el tipo de fuente que va a tener */
+}
+nav ul{
+	padding-left: 50px;
+	width: 30%; 
+	text-align: left; /* Para alinear el texto del contenedor al centro */
+	list-style: none; /* para Declara Que la lista no tendra ningun estilo */
+}
+nav ul li{
+	display: inline-block; /* Para organizar los elementos en un contenedor */
+}
+nav #sub1,#sub3{
+	font-size: 20px;/* Para aumentar el tamaño del texto*/
+}
+nav #sub1, #sub2,[Menu="Menu"]{
+	float: left; /* Para ubicar los contenedor en una ubicacion */
+}
+#sub1 {
+	padding-top:45px;
+	padding-bottom:40px;}
+#sub2{
+	padding-left: 50px;
+	padding-top:100px; /* para aumentar la dimension de un elemento */
+	background-image: url(../Resources/Modulos-logo-positive--web.26da057d.svg);
+	background-size: contain;
+	padding-bottom:20px;
+	background-repeat: no-repeat;
+}
+#sub3{
+	float: left;
+	padding-left: 50px;
+	padding-top:50px;
+	padding-bottom:15px;	
+}
+#sub1,#sub3 ul li{
+	padding-left: 50px;
+}
+nav li a{
+	color: #43525A; /* Para asignarle un color a las lestras*/
+	text-decoration: none;
+}
+nav ul a{
+	color: #43525A;
+	text-decoration: none; /* es para desactivar el subrayado  */
+}
+nav ul li a:hover{/* el hover es para cuando el mouse se ubique ensima del elemento*/
+	color: #28A5BE;
+
+}
+li{
+	padding-right: 20px;
+}
+#asd{
+	background: url(../Resources/37568718_1097140410440327_9029554284638765056_n.jpg)no-repeat;/* Es para asignarle una imagen en el fondo a un elemento  */
+	background-position: center;
+	width: 100%;
+	height: 1000px; 
+}
+[Menu ="Menu"]{
+	margin-top: 9%;/* es para asignarle una margen en las dimensiones del elemnto */
+	width: 21%;
+	height: 240px;
+	margin-left: 50px;
+}
+#imga{
+	background: url(../Resources/37417892_1097105500443818_3313350355835682816_n.png) no-repeat; 
+	background-size: cover; /*  ajusta la imagen en un background por si es muy grande  */
+	background-position: left; /* Es para ubicar la imagen  */
+	width: 67%;
+	height: 750px;
+	float: right;
+	margin-top: 7%;
+}
+[Menu="encabezado"]{
+	color: #43525A;
+	display: block;
+	font-size: 45.5px;
+	font-weight: 500;
+}
+[Menu="parrafo"]{
+	color: #43525A;
+	font-weight: 400;
+}
+[bt = "Boton1"]{
+	text-decoration: none;
+	background:#28A5BE; 
+	color: #fff;
+	padding: 30px;
+	border: none; /* es para colocarle un borde a un elemento*/
+}
+[bt ="Boton2"]{
+	text-decoration: none;
+	background:#2d2d2d; 
+	color: #fff;
+	padding: 15px;
+	border: none;
+}
+#lin{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+	border-bottom: 3px solid #28A5BE;
+}
+#li3{
+	text-align: center;
+	font-size: 20px;
+	padding-right: 5px;
+}
